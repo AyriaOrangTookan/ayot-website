@@ -28,12 +28,13 @@ $(document).ready(function() {
 			fanState = false;
 		}
 	});
-	$('#lamp-toggle').change(function(e, t) {
+	$('#lamp-toggle').change(function(e) {
 		var ll = $('#lamp-light')
-		if (ll.hasClass('lamp-light')) {
-			ll.removeClass('lamp-light')
-		}else {
+		var tog = e.target
+		if (tog.checked) {
 			ll.addClass('lamp-light')
+		}else {
+			ll.removeClass('lamp-light')
 		}
 	})
 
