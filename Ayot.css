@@ -850,8 +850,10 @@
 
   .u-section-5 .u-custom-html-2 {
     min-height: 442px;
-    width: 313px;
-    margin: 144px 74px -16px 44px;
+    margin-top: 0;
+    margin-right: 127px;
+    margin-left: 0;
+    width: auto;
   }
 } .u-section-6 {
   background-image: none;
@@ -1037,7 +1039,7 @@
   .u-section-7 .u-image-1 {
     width: 491px;
     height: 491px;
-    margin-top: -3px;
+    margin-top: 0;
     margin-left: -26px;
     margin-right: -26px;
   }
@@ -1047,9 +1049,9 @@
   }
 
   .u-section-7 .u-custom-html-1 {
-    min-height: 83px;
+    min-height: 128px;
     width: 181px;
-    margin-top: -204px;
+    margin-top: -205px;
     margin-left: auto;
     margin-right: auto;
   }
