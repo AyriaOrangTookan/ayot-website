@@ -28,6 +28,23 @@ $(document).ready(function() {
 			fanState = false;
 		}
 	});
+
+	$('#slider2').on('DOMSubtreeModified', function(){
+		target = document.querySelector('#slider2');
+		x = target.innerText;
+		if (x == '') { return }
+		swtch = document.querySelector('#switch2');
+		var fanState = swtch.checked;
+		if (x > 25 && !fanState) {
+			swtch.checked = true;
+			globalThis.fanState = true;
+			return
+		} else if (x < 25 && fanState) {
+			swtch.checked = false;
+			fanState = false;
+		}
+	});
+
 	$('#lamp-toggle').change(function(e) {
 		var ll = $('#lamp-light')
 		var tog = e.target
