@@ -2014,4 +2014,24 @@
   .u-section-11 .u-sheet-1 {
     min-height: 480px;
   }
+
+  .u-section-11 .u-layout-cell-1 {
+    min-height: 238px;
+  }
+
+  .u-section-11 .u-container-layout-1 {
+    padding-top: 29px;
+    padding-bottom: 29px;
+  }
+
+  .u-section-11 .u-text-1 {
+    margin-top: 1px;
+  }
+
+  .u-section-11 .u-btn-1 {
+    border-style: solid;
+    margin-top: 31px;
+    margin-bottom: -1px;
+    margin-left: 1px;
+  }
 }
