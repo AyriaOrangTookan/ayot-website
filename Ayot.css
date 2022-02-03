@@ -1035,9 +1035,11 @@
   }
 
   .u-section-7 .u-image-1 {
-    width: 340px;
-    height: 340px;
-    margin-top: 73px;
+    width: 491px;
+    height: 491px;
+    margin-top: -3px;
+    margin-left: -26px;
+    margin-right: -26px;
   }
 
   .u-section-7 .u-image-2 {
@@ -1045,9 +1047,9 @@
   }
 
   .u-section-7 .u-custom-html-1 {
-    min-height: 48px;
-    width: 105px;
-    margin-top: -136px;
+    min-height: 83px;
+    width: 181px;
+    margin-top: -204px;
     margin-left: auto;
     margin-right: auto;
   }
